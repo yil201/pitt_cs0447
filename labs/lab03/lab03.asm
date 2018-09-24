@@ -60,7 +60,6 @@ get_multiplicand:
            # store input number in $s0, and store a copy in $s5
            move    $s0,$v0      
            move    $s5,$s0     
-   
 
 get_multiplier:
     	   print_str (prompt2)              
