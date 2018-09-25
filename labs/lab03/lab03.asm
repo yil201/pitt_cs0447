@@ -68,8 +68,8 @@ get_multiplier:
            slt     $t0, $v0, $0
            bnez    $t0, warning2
            # store input number in $s1, and store a copy in $s6
-           move    $s1,$v0   
-           move    $s6,$s1     
+           move    $s1, $v0   
+           move    $s6, $s1     
            print_mult($s5, $s6)
     
            jal multiply
